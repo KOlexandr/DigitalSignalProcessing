@@ -1,0 +1,22 @@
+# Created by .gitignore support plugin (hsz.mobi)
+### Gradle template
+build/
+gradlew
+gradlew.bat
+*.iml
+gradle/wrapper/gradle-wrapper.properties
+.gradle
+classes/
+
+## Directory-based project format:
+.idea/
+# IntelliJ
+out/
+
+
+### Java template
+*.class
+
+### Windows template
+# Windows image file caches
+Thumbs.db

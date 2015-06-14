@@ -1,0 +1,14 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'scala'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.1'
+    compile 'jfree:jfreechart:1.0.13'
+}
